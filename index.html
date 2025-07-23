@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Patrick Owusu - Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Patrick Owusu
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope" />
+            owusupat3@gmail.com
+          </div>
+          <div style="clear:both;"></div>
+          <div class="contact_info">
+            <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope" />
+            +14373296263
+          </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendations">Recommendations</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <div>
+          <img src="wp.jpg" class="profile_image" />
+        </div>
+      </div>
+
+      <div>
+        <h1>
+          Hi, I'm Patrick Owusu! <img src="html_finalprojimages/waving-hand.png" width="60px" />
+        </h1>
+        <p>
+          A data scientist and aspiring full-stack developer with 5 years of experience in both academic and applied settings.
+          Background includes teaching mathematics and building data-driven solutions for education, research, and business.
+          Currently developing expertise in full-stack development, API integration, and cloud deployment using AWS, Docker, and IBM Cloud.
+          Hands-on work includes IBM Watson services like Assistant, NLU, and Sentiment Analyzer, along with intelligent agents built using CrewAI and FastAPI.
+          Focus areas include scalable, cloud-native applications that leverage natural language processing and predictive modeling.
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="file:///home/project/singlepagewebsite/html_finalprojimages/teaching%20mathe.webp" />
+          <h6>Mathematics Instruction</h6>
+          <p>5 years teaching college and high school</p>
+        </div>
+
+        <div class="skill">
+          <img src="file:///home/project/singlepagewebsite/html_finalprojimages/research%20and%20writing.png" />
+          <h6>Research & Writing</h6>
+          <p>Academic publishing and educational research</p>
+        </div>
+
+        <div class="skill">
+          <img src="file:///home/project/singlepagewebsite/html_finalprojimages/web%20and%20software.jpg" />
+          <h6>Web & Software Development</h6>
+          <p>FastAPI, HTML, CSS, JavaScript, Docker</p>
+        </div>
+
+        <div class="skill">
+          <img src="file:///home/project/singlepagewebsite/html_finalprojimages/modeling.png" />
+          <h6>Statistical & ML Modeling</h6>
+          <p>Regression, classification, predictive analysis</p>
+        </div>
+
+        <div class="skill">
+          <img src="file:///home/project/singlepagewebsite/html_finalprojimages/aws%20and%20IBM.png" />
+          <h6>AWS & IBM Cloud</h6>
+          <p>App deployment, Watson services, EC2</p>
+        </div>
+
+        <div class="skill">
+          <img src="file:///home/project/singlepagewebsite/html_finalprojimages/Python-Symbol.png" />
+          <h6>Programming Languages</h6>
+          <p>Python, R, HTML, CSS, JavaScript</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>Projects</h2>
+      <div style="clear:both;"></div>
+
+      <div id="projects-container" class="projects-container">
+        <div class="project-card">
+          <h3>Chatbot</h3>
+          <ul>
+            <li>Developed a secure website integrated with chatbot for an automobile client using HTML, CSS, JavaScript and IBM Watson Assistant</li>
+          </ul>
+        </div>
+        <hr />
+        <div class="project-card">
+          <h3>Sentiment Analyzer</h3>
+          <ul>
+            <li>Developed and deployed a sentiment analyzer for the box reviews section of an eCommerce platform using IBM NLU</li>
+          </ul>
+        </div>
+        <hr />
+        <div class="project-card">
+          <h3>Fashion Website</h3>
+          <ul>
+            <li>Created a styled multi-page website for a new player in the fashion industry and integrated it with a shopping cart, using stripe for payment gateway</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Patrick is a very quick learner and quickly grasps key concepts of Web development.
+          He has a great attitude & is an excellent team player.
+          He has a curious mind and asks the right questions.
+          He takes initiative within a team and has potential to lead.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Working with Patrick has been an awesome experience.
+          He is highly knowledgeable and always goes the extra step to make sure everything is right.
+          For any future projects that need his expertise, I would definitely want to work with him again.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          I had worked alongside Patrick during the initial phase of our venture which needed Web development.
+          He is a committed resource with in-depth knowledge of the domain.
+          He will be an asset to any organisation!
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>
+          <input type="text" placeholder="Name (Optional)" /> <br />
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px"> 
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg" />
+      <h3></h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
